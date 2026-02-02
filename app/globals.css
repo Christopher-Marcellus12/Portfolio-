@@ -1,4 +1,8 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 
 :root {
   --background: #ffffff;
@@ -24,3 +28,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.icon-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.25);
+  border: 1px solid rgba(99, 102, 241, 0.5) !important;
+}
+
+
