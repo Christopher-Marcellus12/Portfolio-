@@ -109,7 +109,7 @@ export default function AppleScrollHero() {
             Christopher Marcellus
           </h1>
           <p style={{ marginTop: 12, opacity: 0.82, lineHeight: 1.6 }}>
-            Graduate of Hofstra University (B.S. Computer Science)
+            Graduate of Hofstra University (B.A. Computer Science)
           </p>
         </div>
 
