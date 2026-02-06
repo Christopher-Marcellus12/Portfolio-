@@ -489,7 +489,7 @@ export default function Home() {
         <section id="contact" style={styles.section}>
           <h2 style={styles.h2}>Contact</h2>
           <p style={styles.sectionSub}>
-            Email: <a style={styles.linkInline} href="mailto:Christopherjm625@email.com">Christopherjm625@email.com</a>
+            Email: <a style={styles.linkInline} href="mailto:Christopherjm625@email.com">Christopherjm625@gmail.com</a>
           </p>
         </section>
       </main>
