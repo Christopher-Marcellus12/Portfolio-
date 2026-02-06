@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Christopher Marcellus Portfolio",
   description: "Software Engineer & Creative Technologist Portfolio",
   icons: {
-    icon: "/favicon-v2.ico",
+    icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
 };
