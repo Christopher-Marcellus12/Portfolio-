@@ -1,3 +1,5 @@
+"use client";
+
 import ParticlesBackground from "./components/ParticlesBackground";
 import {
   FaReact,
@@ -11,11 +13,11 @@ import {
 } from "react-icons/fa";
 import { FaPython, FaJava } from "react-icons/fa";
 import { SiCplusplus } from "react-icons/si";
-
-
 import { SiJavascript, SiTypescript, SiMongodb, SiTailwindcss } from "react-icons/si";
-
 import AppleScrollHero from "./components/AppleScrollHero";
+import ResumeButtons from "./components/ResumeButtons";
+
+
 
 
 
@@ -75,7 +77,12 @@ export default function Home() {
       <ParticlesBackground />
 
       <main style={styles.page}>
+     
         <AppleScrollHero />
+        
+           {/* <div className="w-full flex items-center justify-center">
+  <ResumeButtons />
+</div> */}
 
         {/* HERO
         <section style={styles.hero}>
@@ -124,6 +131,9 @@ export default function Home() {
               developer.
             </p>
           </div>
+          <div className="mt-8 flex justify-center">
+  <ResumeButtons />
+</div>
         </section>
 
                 {/* EXPERIENCE */}

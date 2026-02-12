@@ -3,6 +3,8 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import ResumeButtons from "./ResumeButtons";
+
 
 export default function AppleScrollHero() {
   const sectionRef = useRef<HTMLElement | null>(null);
@@ -117,6 +119,7 @@ export default function AppleScrollHero() {
           <h2 style={{ margin: 0, fontSize: "clamp(28px, 4.5vw, 56px)", fontWeight: 800 }}>
             Full-Stack Developer
           </h2>
+          
           <p style={{ marginTop: 12, opacity: 0.82, lineHeight: 1.6 }}>
             Building clean, modern web apps with strong fundamentals.
           </p>
@@ -160,7 +163,7 @@ export default function AppleScrollHero() {
         >
           Download Resume →
         </a>
-
+          
         <a
           href="#projects"
           style={{
@@ -174,7 +177,7 @@ export default function AppleScrollHero() {
         >
           View Projects
         </a>
-
+          
         <a
           href="#contact"
           style={{
@@ -189,6 +192,9 @@ export default function AppleScrollHero() {
           Contact
         </a>
       </div>
+      {/* <div className="mt-6">
+        <ResumeButtons />
+      </div> */}
 
       {/* Scroll cue (subtle Apple vibe) */}
       <div
