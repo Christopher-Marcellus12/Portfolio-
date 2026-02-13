@@ -1,3 +1,10 @@
+![Next.js](https://img.shields.io/badge/Next.js-Framework-black?logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-Primary-blue?logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Styling-38BDF8?logo=tailwindcss&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?logo=vercel&logoColor=white)
+![Portfolio](https://img.shields.io/badge/Project-Portfolio-green)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
