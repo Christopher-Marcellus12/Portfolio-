@@ -64,7 +64,7 @@ export default function Home() {
 <div style={styles.socials}>
 
   <a
-    href="https://github.com/dashboard"
+    href="https://github.com/Christopher-marcellus12"
     target="_blank"
     rel="noopener noreferrer"
     style={styles.iconButton}
@@ -73,7 +73,7 @@ export default function Home() {
   </a>
 
   <a
-    href="https://www.linkedin.com/in/christopher-marcellus-1b8b62233/"
+    href="https://www.linkedin.com/in/christopher-marcellus/"
     target="_blank"
     rel="noopener noreferrer"
     style={styles.iconButton}
