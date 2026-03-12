@@ -9,7 +9,7 @@ export default function AboutPage() {
           <h1 style={styles.title}>About</h1>
           <p style={styles.text}>
             I’m Christopher Marcellus, a Computer Science and Cybersecurity
-            student at Hofstra University with interests in full-stack
+            graduate from Hofstra University with interests in full-stack
             development, secure systems, and modern web design.
           </p>
         </section>

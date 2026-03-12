@@ -16,6 +16,11 @@ const projects = [
     description:
       "Created a budgeting app with income and expense tracking and persistent local storage.",
   },
+  {
+  title: "SOC Telemetry Simulator",
+  description:
+    "Developed a cybersecurity lab that simulates Security Operations Center (SOC) telemetry using Wazuh SIEM and Docker containers. Implemented simulated attack logs, real-time monitoring, and log analysis to demonstrate threat detection, event correlation, and incident response workflows."
+},
 ];
 
 export default function ProjectsPage() {

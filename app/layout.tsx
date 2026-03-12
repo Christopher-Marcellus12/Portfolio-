@@ -17,6 +17,9 @@ const orbitron = Orbitron({
 export const metadata: Metadata = {
   title: "Christopher Marcellus Portfolio",
   description: "Computer Science and Cybersecurity portfolio",
+  icons: {
+    icon: "/logo.svg",
+  },
 };
 
 const navLinks = [
