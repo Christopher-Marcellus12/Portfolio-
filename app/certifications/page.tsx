@@ -17,6 +17,11 @@ export default function CertificationsPage() {
             <h2 style={styles.cardTitle}>Cyber Security Certification</h2>
             <p style={styles.cardText}>Issued by W3Schools</p>
           </div>
+
+          <div style={styles.card}>
+            <h2 style={styles.cardTitle}>Comptia Security+ (Pending) </h2>
+            <p style={styles.cardText}>Issued by Comptia </p>
+          </div>
         </section>
       </main>
     </>
