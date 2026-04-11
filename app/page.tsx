@@ -39,7 +39,7 @@ export default function Home() {
   {showResumes && (
     <div className={`resume-split ${showResumes ? "open" : ""}`}>
       <a
-        href="Christopher_Marcellus_SE.pdf"
+        href="SE_Christopher_Marcellus.pdf"
         target="_blank"
         rel="noopener noreferrer"
         style={styles.resumeButton}
@@ -49,7 +49,7 @@ export default function Home() {
       </a>
 
       <a
-        href="Christopher_Marcellus_CS.pdf"
+        href="CS_Christopher_Marcellus.pdf"
         target="_blank"
         rel="noopener noreferrer"
         style={styles.resumeButton}
